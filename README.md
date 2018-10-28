@@ -10,7 +10,7 @@ Build instructions :
 
 Notes :
 (1) all scripts (including mouse movement) are written by me
-(2) no plug-ins have been used (not even 'Unity Stabdard Assets')
+(2) no plug-ins have been used (not even 'Unity Standard Assets')
 
 ToDo : 
 (1) clear previous results when changing units
