@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Mouse_controller : MonoBehaviour {
 
-    public float rotateSpeedY;
+    public float rotateSpeedY;                                          // user-defined rotation speed
 
     private float rotationY = 0f;
 
@@ -18,13 +18,13 @@ public class Mouse_controller : MonoBehaviour {
 
     void Update () {
 
-        float vertical = Input.GetAxis("Mouse Y");
+        float vertical = Input.GetAxis("Mouse Y");                      // get 'Y' axis movement from mouse
 
-        rotationY = (vertical * rotateSpeedY * Time.deltaTime);
+        rotationY = (vertical * rotateSpeedY * Time.deltaTime);         // adjust for user-defined rotation speed
 
-        Quaternion localRotation = Quaternion.Euler(rotationY, 0, 0);
+        Quaternion localRotation = Quaternion.Euler(rotationY, 0, 0);   // convert to Quaternion
 
-        transform.rotation *= localRotation;
+        transform.rotation *= localRotation;                            // move GameObject
 
     }
 }

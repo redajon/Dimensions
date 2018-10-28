@@ -32,20 +32,20 @@ public class Calculate : MonoBehaviour {
             height = (((heightMajor.value * 100) + heightMinor.value) / 100);
         }
 
-        if (length != 0 && width != 0 && height != 0) {                     // check for any zero values
+        if (length != 0 && width != 0 && height != 0) {                             // check for any zero values
 
-            floorArea = (length * width);                                   // floor area calculation
+            floorArea = (length * width);                                            // floor area calculation
 
-            paintArea = ((length * height) * 2) + ((width * height) * 2);   // paint calculation
+            paintArea = ((length * height) * 2) + ((width * height) * 2);            // paint calculation
 
             paintRequired = Mathf.Ceil(paintArea / paintCoveragePerLitre);
 
             if (Units.volumeUnit == "gallons") {
 
-                paintRequired /= (int)4.516;                                // convert litres to gallons
+                paintRequired /= (int)4.516;                                         // convert litres to gallons
             }
 
-            volume = (length * width * height);                             // volume calculation
+            volume = (length * width * height);                                     // volume calculation
 
             result.text = ("Floor area : " + floorArea.ToString() + " square " + Units.areaUnit + "\n\n" +
               "You will need approx.\n" + paintRequired.ToString() + " " + Units.volumeUnit + " of paint\nfor the walls\n\n" +

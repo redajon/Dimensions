@@ -16,7 +16,7 @@ public class Show_Value : MonoBehaviour {
 	
 	public void textUpdate (float value) {
 
-        textValue.text = value.ToString();
+        textValue.text = value.ToString();      // update slider value
 		
 	}
 
