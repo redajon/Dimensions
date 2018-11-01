@@ -9,11 +9,11 @@ Build instructions :
 
 (1) clone repository
 
-(2) open with Unty (2018.2.1f1 or later). 'File' -> 'Open Project'
+(2) open with Unty (2018.2.1f1 or later) : 'File' -> 'Open Project'
 
-(3) open 'Assets' -> 'Scenes' -> 'Scene_Dim'
+(3) open scene : 'Assets' -> 'Scenes' -> 'Scene_Dim'
 
-(4) play. 'File' -> 'Play'
+(4) play : 'File' -> 'Play'
 
 
 Notes :
