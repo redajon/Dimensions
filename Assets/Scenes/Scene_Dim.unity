@@ -803,7 +803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 5
-  rotateSpeedX: 35
+  rotateSpeed: 20
 --- !u!54 &189112743
 Rigidbody:
   m_ObjectHideFlags: 0
